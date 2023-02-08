@@ -38,6 +38,7 @@ dependencies {
   implementation("org.slf4j:slf4j-api:2.0.6")
   implementation("org.slf4j:slf4j-simple:2.0.6")
   implementation("io.vertx:vertx-opentracing")
+  implementation("com.fasterxml.jackson.core:jackson-databind:2.14.2")
 
   implementation(kotlin("stdlib-jdk8"))
   testImplementation("io.vertx:vertx-junit5")

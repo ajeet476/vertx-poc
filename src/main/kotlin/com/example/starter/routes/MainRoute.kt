@@ -22,6 +22,7 @@ class MainRoute {
     val router = Router.router(vertx)
     createBodyHandlers(router)
     HealthRoutes().attachRoute(router)
+    UserRoutes().attachRoute(router)
 
     return router
   }
